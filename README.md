@@ -1,118 +1,119 @@
-The Real-Time Job Analytics Portal aims to deliver dynamic insights into hiring trends by showcasing job postings based on multiple filters such as job title, company size, qualification, work type, and geographic details. Unlike traditional static job boards, this system utilizes real-time data processing and interactive dashboards, empowering job seekers and recruiters to make more informed decisions.
+📊 JobPortalAnalysis
+A Real-Time Job Analytics Dashboard that transforms static job data into dynamic visualizations using conditional filters, real-time rendering rules, and geographic interactivity. This platform empowers both job seekers and recruiters to make data-driven decisions by exploring hiring patterns, job types, and trends across industries and countries.
 
-✅ Task Summaries
-1. Job Portal vs. Company
-Draw a chart showing the relationship between Job Portal and Company.
+🔗 Live Demo: 
+📁 Dataset: Kaggle - Job Description Dataset
 
-2. Role, Job Title & Job Posting (Conditional Filters)
-Job Posting Date: Between 30-11-2021 and 30-03-2022
+🚀 Features & Tasks Overview
+1️⃣ Job Portal vs Company Chart
+A straightforward chart displaying relationships between Job Portal and Company to understand the distribution of job postings across portals.
 
-Work Type:
+2️⃣ Role, Job Title & Job Posting (Conditional Filters)
+📅 Job Posting Date: 30-11-2021 to 30-03-2022
 
-If Preference = Male → Contract
+🧑 Preference:
 
-If Preference = Female → Full-time
+Male → Work Type: Contract
 
-Company Name starts with M, A, or E
+Female → Work Type: Full-time
 
-Job Portal = Indeed
+🏢 Company Name starts with: M, A, E
 
-Country starts with letter B
+🌐 Job Portal: Indeed
 
-3. Qualification, Location & Role Specific (African Region & Map Click)
-Qualification: B.Tech, M.Tech, PhD
+🌍 Country starts with letter: B
 
-Work Type: Full-time
+3️⃣ Qualification, Location & Role Specific (African Region & Map Interactivity)
+🎓 Qualification: B.Tech, M.Tech, PhD
 
-Country: Only African Continent
+💼 Work Type: Full-time
 
-Job Title starts with letter D
+🌍 Country: Only African countries
 
-Preference: Male
+🔠 Job Title starts with: D
 
-Company Size > 80,000
+👨 Preference: Male
 
-Contact Person starts with letter A
+👥 Company Size: >80,000
 
-Job Portal: Indeed
+🧑 Contact Person starts with: A
 
-Visibility Condition: Display chart only between 3PM IST to 6PM IST
+🌐 Job Portal: Indeed
 
-Feature: Clicking on Latitude & Longitude opens a map showing the exact location.
+🕒 Visibility: Only between 3 PM - 6 PM IST
 
-4. Top 10 Companies with Data Engineer & Data Scientist Roles
-Role: Data Engineer
+🗺️ Clicking on Latitude & Longitude opens a map with the exact location
 
-Job Title: Data Scientist
+4️⃣ Top 10 Companies - Data Engineer & Data Scientist Roles
+🔧 Role: Data Engineer
 
-Exclude: All Asian countries and countries starting with C
+🔬 Job Title: Data Scientist
 
-Preference: Female
+🌍 Exclude:
 
-Latitude: ≥ 10
+Asian Countries
 
-Job Posting Date: 01-01-2023 to 06-01-2023
+Countries starting with C
 
-Qualification: B.Tech only
+👩 Preference: Female
 
-Visibility Condition: Display chart only between 3PM IST to 5PM IST
+📍 Latitude: >= 10
 
-5. Preference vs. Work Type (Time & Location-Based Conditional Display)
-Work Type: Intern
+📅 Job Posting Date: 01-01-2023 to 06-01-2023
 
-Latitude: < 10
+🎓 Qualification: B.Tech
 
-Country Name: Should NOT start with A, B, C, or D
+🕒 Visibility: Only between 3 PM - 5 PM IST
 
-Job Title: ≤ 10 characters
+5️⃣ Preference vs Work Type (Internships)
+💼 Work Type: Intern
 
-Company Size: < 50,000
+📍 Latitude: < 10
 
-Visibility Condition: Display chart only between 3PM IST to 5PM IST
+🌍 Country Name: Does NOT start with A, B, C, or D
 
-6. Company Size & Name (Mechanical Engineer - Asian Countries)
-Company Size: < 50,000
+🔠 Job Title: ≤ 10 characters
 
-Job Title: Mechanical Engineer
+👥 Company Size: < 50,000
 
-Experience: > 5 Years
+🕒 Visibility: Only between 3 PM - 5 PM IST
 
-Country: Must be in Asia
+6️⃣ Company Size vs Company Name (Mechanical Engineers)
+👥 Company Size: < 50,000
 
-Salary: > $50,000
+🔧 Job Title: Mechanical Engineer
 
-Work Type: Part-time OR Full-time (ignore other types)
+⏳ Experience: > 5 years
 
-Preference: Male
+🌍 Country: Asian countries only
 
-Job Portal: Idealist
+💰 Salary: > $50,000
 
-Visibility Condition: Display chart only between 3PM IST to 5PM IST
+💼 Work Type: Part-time OR Full-time
 
-7. Country-Based Comparison (India vs Germany - Color Coded)
-Country: India (Orange) vs Germany (Green)
+👨 Preference: Male
 
-Qualification: B.Tech
+🌐 Job Portal: Idealist
 
-Work Type: Full-time
+🕒 Visibility: Only between 3 PM - 5 PM IST
 
-Experience: > 2 Years
+7️⃣ India vs Germany – Color Based Chart
+🌍 Country: India (Orange), Germany (Green)
 
-Job Titles: Data Scientist, Art Teacher, Aerospace Engineer
+🎓 Qualification: B.Tech
 
-Salary: > $10,000
+💼 Work Type: Full-time
 
-Job Portal: Indeed
+⏳ Experience: > 2 years
 
-Preference: Female
+🔬 Job Titles: Data Scientist, Art Teacher, Aerospace Engineer
 
-Job Posting Date: Before 08-01-2023
+💰 Salary: > $10,000
 
-Visibility Condition: Display chart only between 3PM IST to 5PM IST
+🌐 Job Portal: Indeed
 
-🌍 Deployment
-Live Demo:
-🔗 https://jobportalnullclasshsk.netlify.app/
+👩 Preference: Female
 
-Dataset Used:
-🔗 Kaggle Dataset - Job Description
+📅 Job Posting Date: < 08-01-2023
+
+🕒 Visibility: Only between 3 PM - 5 PM IST
